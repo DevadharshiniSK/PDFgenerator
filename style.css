@@ -60,6 +60,13 @@ button{
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+footer{
+    text-align: center;
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:inherit;
+    padding-top: 150px;
+}
 
 @media screen and (max-width: 768px){
     .main{
@@ -90,12 +97,15 @@ button{
        text-align: center; 
     }
     .button{
-        top: 85%;
+        top: 90%;
         left: 50%;
-        padding:50px 100px 30px 100px;
+        border:20px 100px 30px 100px;
+        border-top: 20px;
         align-content: center;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
         cursor: pointer;
+    }
+    footer{
+        text-align: center;
+        padding-top: 80px;
     }
 }

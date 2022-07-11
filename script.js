@@ -29,9 +29,9 @@ generatePDF("DEVADHARSHINI S K")
 let btnDownload = document.querySelector("button");
 btnDownload.addEventListener("click", startDownload);
 async function startDownload() {
-let src = "certificate.pdf";
+let url = "certificate.pdf";
 let fileName = "CoinEarner";
-const res = await fetch(src);
+const res = await fetch(url);
 const blob = await res.blob();
 saveAs(blob, fileName);
 }
