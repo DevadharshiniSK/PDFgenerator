@@ -6,6 +6,7 @@
 .main{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 #coinpdf{
@@ -44,28 +45,34 @@ p{
     font-style:inherit;
     padding-bottom: 20px;
 }
-button{
-  background-color: rgb(35, 71, 249);
-  color: white;
-  border-radius: 10px;
-  height: 80px;
-  width: 500px;
-  font-size: x-large;
-  margin: 0;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  padding-top:10px ;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  cursor: pointer;
+.controls {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
 }
+
+#button {
+    background-color: rgb(35, 71, 249);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border-top: 20px;
+    font-size: 20px;
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    cursor: pointer;
+}
+
+
 footer{
     text-align: center;
     font-size:x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style:inherit;
-    padding-top: 150px;
+    padding-top: 30px;
 }
 
 @media screen and (max-width: 768px){
@@ -99,13 +106,12 @@ footer{
     .button{
         top: 90%;
         left: 50%;
-        border:20px 100px 30px 100px;
         border-top: 20px;
         align-content: center;
         cursor: pointer;
     }
     footer{
         text-align: center;
-        padding-top: 80px;
+        padding-top: 30px;
     }
 }
