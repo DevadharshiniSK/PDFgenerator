@@ -14,7 +14,7 @@
    margin-right: auto;
 }
 .container{
-   padding: 20px 950px 30px 950px;
+   padding: 20px 100px 30px 100px;
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
@@ -61,7 +61,7 @@ button{
   cursor: pointer;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .main{
         width: fit-content;
         height: fit-content;
@@ -69,24 +69,33 @@ button{
     #coinpdf{
         display: block;
         max-height: fit-content;
-        max-width: fit-content;   
+        max-width: fit-content; 
+        cursor: pointer;  
     } 
     .container{
         display: flex;
-       padding-left: 20px;
-     
-
+       padding: 20px 100px 30px 100px;
     }
     .title{
        display: flex;
        text-align: center;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .logo{
         display: flex;
-        
+        align-content: center;
     }
     .p{
         padding-top: 40px;
        text-align: center; 
+    }
+    .button{
+        top: 85%;
+        left: 50%;
+        padding:50px 100px 30px 100px;
+        align-content: center;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        cursor: pointer;
     }
 }
