@@ -17,7 +17,7 @@ const generatePDF = async (name) => {
 
     })
      const uri = await pdfDoc.saveAsBase64({dataUri: true})
-
+     
     document.querySelector("#coinpdf").src = uri;
 
 
