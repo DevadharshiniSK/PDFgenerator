@@ -5,20 +5,24 @@ body{
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+.Mail-Certificate{
+  margin: 0 auto;
+}
 .container{
-  height: 100vh;
+ height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
   justify-content: flex-start;
   padding: 10px;
+  margin: 0 auto;
 }
 .Hi{
   font-family: Inter;
+  padding-right: 350px;
   font-size: 15px;
   font-weight: bold;
-  padding-right: 350px;
   padding-top: 40px;
   text-align: left;
   color: #000;
@@ -32,6 +36,8 @@ body{
 }
 #coinpdf{
   padding: 20px;
+  height: 400px;
+  width: 400px;
 }
 #button {
   background-color: rgb(35, 71, 249);
@@ -62,6 +68,7 @@ body{
     width: 100vh;
     height: 100%;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
