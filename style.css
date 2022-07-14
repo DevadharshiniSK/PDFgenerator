@@ -67,8 +67,11 @@ body{
     margin: 0 auto;
   }
   .Hi{
-   padding-left: 60px;
+   padding-left: 80px;
    width: 74px;
+  }
+  .text{
+    padding-left: 10px;
   }
   
  
