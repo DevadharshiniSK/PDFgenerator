@@ -4,18 +4,19 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-}
-.Mail-Certificate{
-  margin: 0 auto;
+  overflow-y: hidden;
 }
 .container{
  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: left;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 1px;
+
+  margin: 0 auto;
+}
+.Combined-Shape2x-1{
   margin: 0 auto;
 }
 .Hi{
@@ -23,7 +24,7 @@ body{
   padding-right: 350px;
   font-size: 15px;
   font-weight: bold;
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: left;
   color: #000;
 }
@@ -45,30 +46,22 @@ body{
   width: 400px;
   height: 40px;
   flex-grow: 0;
-  margin-top: 5%;
+  margin-top: 1%;
   cursor: pointer;
 }
 .Thanks , .team{
-  margin-top: 5px;
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: bold;
-  color: #000;
-}
-.team{
-  text-align: left;
   font-family: Inter;
   font-size: 15px;
   font-weight: bold;
   color: #000;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
+
   .Mail-Certificate{
-    width: 100vh;
-    height: 100%;
+    width: 80vh;
+    height: 80%;
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
