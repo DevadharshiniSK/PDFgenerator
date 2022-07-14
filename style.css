@@ -15,7 +15,7 @@ body{
 .Hi{
   font-family: Inter;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #000;
   padding-right: 350px;
@@ -23,7 +23,7 @@ body{
 .text{
   font-family: Inter;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: normal;
   color: #000;
 }
 #coinpdf{
@@ -32,7 +32,9 @@ body{
   width: 400px;
 }
 #button {
-  background-color: rgb(35, 71, 249);
+  border-radius: 3px;
+  border: solid 2px #efefef;
+  background-color: #319cea;
   color: black;
   width: 400px;
   height: 40px;
@@ -42,8 +44,12 @@ body{
   padding-top: 5px;
   font-family: Inter;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: normal;
   color: #000;
+  padding-right: 340px;
+}
+.team{
+  padding-right: 245px;
 }
 
 @media screen and (max-width: 768px){
@@ -68,14 +74,17 @@ body{
     margin: 0 auto;
   }
   .Hi{
-   padding-left: 80px;
+   
    width: 74px;
   }
   .text{
     padding-left: 10px;
   }
-  
- 
-  
+  .Thanks{
+    padding-right: 340px;
+  }
+  .team{
+    padding-right: 245px;
+  }
 }
 
